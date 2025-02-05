@@ -1,6 +1,6 @@
 from openai import OpenAI
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="<API-KEY>")
 from pinecone import Pinecone, ServerlessSpec
 import cohere
 import numpy as np
